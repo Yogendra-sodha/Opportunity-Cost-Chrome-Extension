@@ -1,0 +1,117 @@
+/* popup/styles.css */
+
+/* 1. Global Reset */
+body {
+    width: 320px;
+    /* Slightly wider for a spacious feel */
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    /* Modern, clean font */
+    background-color: #FAFAFA;
+    /* Off-white, soft background */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* 2. The Header - "Financial Settings" */
+/* Dark blue band at the top for a professional look */
+header {
+    background-color: #1e293b;
+    /* Premium Navy Blue */
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* 3. The Form Container */
+/* Holds the inputs together with padding */
+.container {
+    padding: 20px;
+}
+
+/* 4. Input Groups */
+.form-group {
+    margin-bottom: 20px;
+    /* Space between questions */
+}
+
+/* 5. Labels - The text above the box */
+label {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    /* Makes it look like a dashboard UI */
+    color: #64748b;
+    /* Slate grey */
+    margin-bottom: 6px;
+}
+
+/* 6. Inputs - The boxes you type in */
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e2e8f0;
+    /* Very light grey border */
+    border-radius: 8px;
+    /* Soft rounded corners */
+    font-size: 14px;
+    box-sizing: border-box;
+    /* Ensures padding doesn't break the width */
+    transition: all 0.2s ease;
+    /* Smooth animation when you click it */
+}
+
+/* When you click inside the box (focus) */
+input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    /* Blue glow */
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+/* 7. The Save Button */
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #2563eb;
+    /* Royal Blue */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+/* Make it darker when you hover over it */
+button:hover {
+    background-color: #1d4ed8;
+}
+
+/* 8. The Success Message */
+#status-msg {
+    text-align: center;
+    margin-top: 12px;
+    font-size: 13px;
+    height: 20px;
+    color: #059669;
+    /* Emerald Green */
+    font-weight: 500;
+    opacity: 0;
+    /* Hidden by default */
+    transition: opacity 0.3s;
+}
+
+/* Helper class to show the message */
+#status-msg.visible {
+    opacity: 1;
+}
