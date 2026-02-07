@@ -4,9 +4,7 @@
     "version": "1.0",
     "description": "Visualizes the real cost of Amazon purchases in terms of future investment value and time worked.",
     "permissions": [
-        "storage",
-        "activeTab",
-        "scripting"
+        "storage"
     ],
     "host_permissions": [
         "*://*.amazon.com/*"
