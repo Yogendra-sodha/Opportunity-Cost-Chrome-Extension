@@ -24,4 +24,4 @@ We do not sell, trade, or otherwise transfer your data to outside parties. The e
 We may update this privacy policy from time to time. Information on the most current version will be available on this page.
 
 ## 5. Contact Us
-If you have any questions regarding this Privacy Policy, you may contact us at: [Insert Your Support Email Here]
+If you have any questions regarding this Privacy Policy, you may contact us at: yuvisodha@gmail.com
